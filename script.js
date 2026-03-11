@@ -8,3 +8,9 @@ button.addEventListener('click', () => {
     list.appendChild(item);
     input.value = '';
 })
+
+list.addEventListener('click', (event) => {
+    if (event.target.tagName === 'LI') {
+        event.target.remove();
+    }
+});
