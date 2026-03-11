@@ -2,3 +2,8 @@
     list-style-type: none;
     border: 2px solid black;
 }
+
+.search {
+    display: flex;
+    margin-top: 20px;
+}
